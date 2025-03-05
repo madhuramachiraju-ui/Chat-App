@@ -1,8 +1,10 @@
 const ContactsContainer= () => {
     return(
         <div className="relative md:w-[30vw] xl:w-[20vw] bg-[#1b1c24] border-r-2 border-[#2f303b] w-full">
-            ContactsContainer
-        </div>
+            <div className="pt-3">
+            <Logo />
+           <div/> 
+        <div className = "my-5">
     );
 };
 
@@ -34,4 +36,12 @@ const Logo = () => {
             <span className= "text-3xl font-semibold ">Syncronus</span>/div>
             );
             };
+
+const Title = ({text}) => {
+    return (
+            <h6 className= "uppercase tracking-widest text-neutral-400 pl-10 font-light text-opacity-90 text-sm">
+                {text}
+            </h6>
+            
+            
             
